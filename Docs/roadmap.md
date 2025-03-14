@@ -61,3 +61,6 @@ DemoApp is a macOS application designed to efficiently manage email auto-replies
 
 ## Conclusion
 This roadmap provides a structured plan for developing DemoApp, an intuitive and efficient email auto-reply manager built with SwiftUI and AppKit. By following this roadmap, we aim to deliver a high-quality application that enhances email management and user experience.
+
+
+
