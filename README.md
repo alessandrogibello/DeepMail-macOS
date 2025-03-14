@@ -28,7 +28,7 @@ DeepMail is a macOS application that automates email responses using an AI-drive
 - Front-end UI
 
 **In Progress:**
-- AI backend integration
+- Bug fix in backend integration
 
 
 ## License
