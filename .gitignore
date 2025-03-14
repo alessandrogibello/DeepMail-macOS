@@ -1,0 +1,32 @@
+# Xcode
+DerivedData/
+*.xcworkspace/xcuserdata/
+*.xccheckout
+*.xcscmblueprint
+build/
+!.github/workflows
+
+# Swift Package Manager
+Packages/
+.swiftpm/
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+
+# Backend
+Backend/
+
+# Content preview
+Preview Content/
+
+# Assets
+Assets/
+
+# Entitlements
+*.entitlements
+
+# Others
+*.DS_Store
+*.moved-aside
+*.swp
+*.tmp
+*.log

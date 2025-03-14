@@ -1,4 +1,4 @@
-# DeepMail README
+# DeepMail
 
 This codebase provides a macOS application built with SwiftUI and AppKit to manage automated email replies. It integrates with a backend that dynamically selects and processes PDF and Excel files based on the content of incoming emails.
 
