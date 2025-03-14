@@ -1,11 +1,35 @@
 # DeepMail
 
-This codebase provides a macOS application built with SwiftUI and AppKit to manage automated email replies. It integrates with a backend that dynamically selects and processes PDF and Excel files based on the content of incoming emails.
+## Overview
+DeepMail is a macOS application that automates email responses using an AI-driven pipeline. This repository contains:
+- SwiftUI & AppKit-based front-end
+- Python-based backend for PDF chunking, API calls
 
-**Key Features**:  
-1. **Vector Databases**: Used to store and quickly retrieve relevant information from large data sets in real-time.  
-2. **PDF Chunking**: Breaks large PDF documents into smaller parts, allowing more accurate content analysis and faster responses.  
-3. **Automated File Selection**: The system determines which PDFs and Excel files are relevant to the received email and processes their data automatically.  
-4. **SwiftUI & AppKit Integration**: Interface built with SwiftUI, while AppKit handles overall window management and behavior.
+## Front-End
+- SwiftUI for layout & data handling
+- AppKit for lower-level macOS interactions
 
-Use this app as a foundation for designing, refining, and deploying an automated email solution with built-in data extraction, transformation, and response generation. The code is organized into SwiftUI views, window delegates, and entitlements configured for Apple’s sandbox environment.
+## Backend
+- Python runtime for API processing and file parsing
+- PyMuPDF for PDF, pandas/openpyxl for spreadsheets
+- Communicates via Swift’s Process-based IPC
+
+### Features & Architecture
+- AI-driven email creation & vector database indexing
+- Document chunking for efficient LLM usage
+- Automated file selection based on content
+
+
+## Packaging & Distribution
+- Single App Bundle with embedded Python
+
+## Current Status
+**Completed:**
+- Front-end UI
+
+**In Progress:**
+- AI backend integration
+
+
+## License
+All rights reserved.
